@@ -1,1 +1,12 @@
-
+1. There are a total of 20 types of documents(Text files) and total 18828 documents(text files).
+2. There is documents.rar file 
+3. If you unzip that, you will get total of 18828 documnets. document name is defined as'ClassLabel_DocumentNumberInThatLabel'. 
+4. The task is to classify all the documents into any one of the classes.
+5. Each document contains some specific kinds of information like emails mentioned, subjects mentioned and importantly long texts written in the document.
+6. These specific kinds of information are used as features. Their extraction mandates a lot of cleaning and some recommended strategies like thinking were employed while extraction
+7. REGEX library was extensively used to extract and arrange the data in sensible manner.
+8.The architecture used for classification uses 1-dimensional convolutions. 
+9. The motivation behind 1-d convolutions comes from the fact that 1-d convolutions are good at extracting sensible features from data which has sequential nature.
+10. Since, nature of the task is text classification and the words have a spatial relationship with other words, usage of 1-d convolutions based architecture makes sense
+11. There is an image, named 'model_doc' which shows the architecture used in a glance.
+12  The model reached 70% validation accuracy in 24 epochs.
