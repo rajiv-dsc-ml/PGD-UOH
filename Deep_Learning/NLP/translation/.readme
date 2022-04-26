@@ -1,0 +1,5 @@
+This is an encoder-decoder architecture with attention.
+It is used for translation of italian texts to english
+There are two parts in the notebook
+The first architecture is a simple encoder decoder architecture while the second one is encoder-decoder architecture with attention.
+The attention is leveraged using simple 'dot' function which can be thought of cosine similarity.
