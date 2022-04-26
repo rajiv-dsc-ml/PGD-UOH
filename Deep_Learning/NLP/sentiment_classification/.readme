@@ -1,0 +1,5 @@
+This notebook shows the power of bert in extracting powerful features from text.
+The text data is of Amazon reviews. The task is to classify the sentiment as positive or negative given a review
+The Bert, basically transforms the given document(a sentence) into a vector.
+The attention mechanism used by it makes the quality of representation so good that even a logistic regression on the components of this representation works very well for 
+classification.
