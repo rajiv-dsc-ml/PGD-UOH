@@ -1,0 +1,5 @@
+The notebook shows power of one dimensional convolutional nueral network in classification task when it comes to text data
+The goal: given a document, a text file, identify the category it belongs
+There are 20 categories. Some of them are : politics, sports..
+We leverage an architecture based on 1 dimensional convolutions to basically get useful features from sequential data and use it for classification.
+Note that in a text, words share spatial relation and that makes it sequential in nature.
